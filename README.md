@@ -26,4 +26,4 @@ N/A
 
 ## Notes
 
-This app was NOT solely created by me; This app was made in collaboration with others. Although, this repo holds the source code, source control was not done within this repo. We used Bitbucket instead. 
+This app was NOT solely created by me; This app was made in collaboration with others. Although this repo holds the source code, version control was not done within this repo. We used Bitbucket instead. 
