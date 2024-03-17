@@ -17,7 +17,7 @@ The following functionality is completed:
 ## How to run
 
 1. Check the README of each folder e.g. README present in web/ to launch web, README present in mobile/ to launch mobile
-2. With those instructions you should be able to, build and run the app
+2. With those instructions you should be able to build and run the app
 3. Use the app!
 
 ## Video Walkthrough
