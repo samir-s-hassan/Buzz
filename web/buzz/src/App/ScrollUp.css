@@ -1,0 +1,17 @@
+/*
+Used ChatGPT for this*/
+
+.scroll-to-top-button {
+    position: fixed;
+    top: 20px; /* Adjust the top value to your desired distance from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.scroll-to-top-button.visible {
+    opacity: 1;
+    visibility: visible;
+}

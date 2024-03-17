@@ -1,0 +1,54 @@
+/* AddComment.css */
+
+.drawer-content {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-background {
+  background-color: rgba(255, 255, 255, 0.8); /* Add some transparency */
+}
+.custom-button {
+  width: 70px;
+  height: 60px;
+  background-color: #009688; /* Teal color */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for smoother effect */
+
+  &:hover {
+    background-color: #00796b; /* Darker Teal color on hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Adjust box shadow on hover */
+  }
+}
+
+.drawer-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.drawer-buttons button {
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.drawer-buttons button.submit {
+  background-color: lightgreen;
+  color: #fff;
+}
+
+.drawer-buttons button.cancel {
+  background-color: #ff6961;
+  color: #fff;
+}

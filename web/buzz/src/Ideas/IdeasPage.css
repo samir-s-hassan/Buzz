@@ -1,0 +1,40 @@
+.ideas-container {
+  margin-left: 20px;
+  justify-content: space-around;
+}
+
+.idea-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  width: 90%;
+}
+
+.actions-comment-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions-section {
+  margin-top: 10px;
+}
+
+.comment-section {
+  margin-top: 16px;
+}
+
+/* Adjust text styling as needed */
+.idea-card .MuiTypography-root {
+  font-size: 1rem;
+  /* Add any other text styling properties as needed */
+}
+
+.custom-button-style {
+  display: inline-block;
+  padding: 8px;
+  background-color: #0d47a1; /* Darker blue color */
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

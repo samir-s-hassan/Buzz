@@ -1,0 +1,74 @@
+<!DOCTYPE html />
+<html lang="en">
+<head>
+  <title>The Buzz</title>
+  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+  <link rel="stylesheet" href="todo.css" />
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+</head>
+
+<body onload="changeText()">
+  <div id="replacable"></div>
+  <div id="addElement">
+    <h3>Add a New Idea</h3>
+    <label>Idea</label>
+    <textarea id="newIdea"></textarea>
+    <button id="addButton">Add</button>
+    <button id="addCancel">Cancel</button>
+  </div>
+  <!-- <div id="editElement">
+    <h3>Edit an Entry</h3>
+    <label>Idea</label>
+    <textarea id="editIdea"></textarea>
+    <input type="text" id="editIdea" />
+    <span id="editCreated"></span>
+    <input type="hidden" id="editId" />
+    <button id="editButton">Update</button>
+    <button id="editCancel">Cancel</button>
+  </div> -->
+  <div id="showElements">
+    <h3>All Ideas</h3>
+    <div id="ideaList"></div>
+    <!-- <div id="likeList"></div> -->
+    <!-- <button id="like-button">Like</button>
+    <span class = "likeCount">0</span> -->
+  </div>
+  <hr />
+  <app-root></app-root>
+</body>
+<script>
+    window.addEventListener('load', function() {
+    // your code here
+    console.log('Everything loaded.');
+    window.alert('Heads-up: everything loaded');
+});
+  function changeText(){
+   
+  }
+    // Initialize the like count
+    let currentCount = 0;
+    const likeCount = document.querySelector(".likeCount");
+
+    // Get a reference to the "Like" button
+    const likeButton = document.getElementById("like-button");
+
+    // Function to increment the like count
+    function incrementLikeCount() {
+      currentCount++;
+      likeCount.textContent = currentCount;
+    }
+
+    // Add a click event listener to the "Like" button
+    likeButton.addEventListener("click", function() {
+      
+      incrementLikeCount();
+    });
+</script> 
+</html>

@@ -1,0 +1,29 @@
+/* NavigationBar.css */
+
+.app-bar {
+  background-color: yellow; /* Change to yellow */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  color: white;
+  flex-grow: 1;
+  text-align: center; /* Center the text */
+  font-size: 1.8rem;
+}
+
+.search-section {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
